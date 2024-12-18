@@ -1,0 +1,299 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  header {
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+    height: 85px;
+    justify-content: space-around;
+    align-items: center;
+
+    .header_div {
+      display: flex;
+
+      .img_fram {
+        width: 66px;
+        height: 57px;
+        top: 12px;
+        gap: 0px;
+        align-items: center;
+        margin-top: 15px;
+      }
+      .img_fram1 {
+        width: 165px;
+        height: 57px;
+        top: 12px;
+        left: 107px;
+        gap: 0px;
+        margin-top: 15px;
+      }
+    }
+    .navi_div {
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 60px;
+        justify-content: center;
+        align-items: center;
+        li {
+          a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+  .main_section {
+    background-image: url(./assets/IMAGE.png);
+    height: 100%;
+
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    h1 {
+      color: #aee8fb;
+      font-size: 112px;
+      font-weight: 400;
+      padding-top: 450px;
+      padding-left: 70px;
+    }
+  }
+  .main_section1 {
+    h1 {
+      text-align: center;
+      font-size: 44px;
+      font-weight: 400;
+      line-height: 52.8px;
+      color: #000000;
+      padding-top: 80px;
+    }
+    .disko_btn {
+      background-color: #ffffff;
+      width: 150px;
+      height: 43px;
+      border-radius: 10px;
+      border: 1px solid;
+      color: #000000;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 16.41px;
+      letter-spacing: 1.12px;
+      margin-left: 640px;
+      margin-top: 40px;
+      cursor: pointer;
+    }
+  }
+  .main_section2 {
+    .text_div {
+      background-color: #f3e9e2;
+      height: 392px;
+      margin-top: 70px;
+
+      p {
+        font-size: 80px;
+        font-weight: 400;
+        line-height: 88px;
+        padding-left: 80px;
+        padding-top: 60px;
+      }
+    }
+  }
+  .our_p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 1.1px;
+    color: #000000;
+    margin-left: 80px;
+    margin-top: 80px;
+  }
+  .main_section3 {
+    .cards_div {
+      display: flex;
+      gap: 80px;
+      justify-content: center;
+
+      .card_1 {
+        background-color: #aee8fb;
+        width: 370px;
+        height: 626px;
+        border-radius: 10px;
+        margin-top: 30px;
+
+        img {
+          width: 308px;
+          height: 320px;
+          border-radius: 10px;
+          margin-left: 28px;
+          margin-top: 28px;
+        }
+        h1 {
+          font-size: 16px;
+          font-weight: 500;
+          text-align: center;
+          line-height: 18.75px;
+          padding-top: 16px;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 19.52px;
+          text-align: center;
+          color: #000000;
+          padding-top: 18px;
+        }
+        .reim_btn {
+          width: 153px;
+          height: 43px;
+          border-radius: 10px;
+          border: 1px solid;
+          background-color: #aee8fb;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 16.41px;
+          letter-spacing: 1.12px;
+          color: #000000;
+          margin-left: 100px;
+          margin-top: 27px;
+        }
+      }
+      .card_2 {
+        background-color: #f3e9e2;
+        width: 370px;
+        height: 626px;
+        border-radius: 10px;
+        margin-top: 30px;
+
+        img {
+          width: 308px;
+          height: 320px;
+          border-radius: 10px;
+          margin-left: 28px;
+          margin-top: 28px;
+        }
+        h1 {
+          font-size: 15px;
+          font-weight: 500;
+          text-align: center;
+          line-height: 17.58px;
+          padding-top: 16px;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 19.52px;
+          text-align: center;
+          color: #000000;
+          padding-top: 18px;
+        }
+        .learn_btn {
+          width: 124px;
+          height: 43px;
+          border-radius: 10px;
+          border: 1px solid;
+          background-color: #f3e9e2;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 16.41px;
+          letter-spacing: 1.12px;
+          color: #000000;
+          margin-left: 100px;
+          margin-top: 27px;
+        }
+      }
+      .card_3 {
+        background-color: #aee8fb;
+        width: 370px;
+        height: 626px;
+        border-radius: 10px;
+        margin-top: 30px;
+
+        img {
+          width: 308px;
+          height: 320px;
+          border-radius: 10px;
+          margin-left: 28px;
+          margin-top: 28px;
+        }
+        h1 {
+          font-size: 15px;
+          font-weight: 500;
+          text-align: center;
+          line-height: 17.58px;
+          padding-top: 16px;
+        }
+        p {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 19.52px;
+          text-align: center;
+          color: #000000;
+          padding-top: 18px;
+        }
+        .explore_btn {
+          width: 140px;
+          height: 43px;
+          border-radius: 10px;
+          border: 1px solid;
+          background-color: #aee8fb;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 16.41px;
+          letter-spacing: 1.12px;
+          color: #000000;
+          margin-left: 100px;
+          margin-top: 47px;
+        }
+      }
+    }
+  }
+  .main_section4 {
+   
+    
+      
+    .cards2_div {
+        display: flex;
+        justify-content: center;
+        
+
+      .img_women{
+        width: 570px;
+        height: 570px;
+        margin-top: 80px;
+
+       
+      }
+
+      .text2_div{
+        width: 570px;
+        height: 570px;
+        border-radius: 15px;
+        margin-top: 80px;
+        background-color: #F3E9E2;
+
+      }
+      p{
+        font-size: 44px;
+        font-weight: 500;
+        color: #000000;
+        text-align: center;
+        line-height: 52.8px;
+        padding-top: 160px;
+      
+      }
+      
+
+      
+  }
+}
+}
